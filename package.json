@@ -1,0 +1,8 @@
+{
+  "name": "mask_wizard",
+  "version": "0.0.1",
+  "description": "um montao de masks",
+  "main": "src/index.js",
+  "author": "Peam",
+  "license": "MIT"
+}
