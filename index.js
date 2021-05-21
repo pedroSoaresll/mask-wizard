@@ -1,7 +1,7 @@
 'use strict'
 Object.defineProperty(exports, "__esModule", { value: true })
 
-const { onlyNumbers } = require('./lib')
+const { onlyNumbers } = require('./src/lib/helpers')
 
 const time = (timeInput, maxLength) => {
    const trimmedTime = onlyNumbers(timeInput).replace(/^0+(?!$)/, '')
