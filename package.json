@@ -14,7 +14,7 @@
    },
    "scripts": {
       "test": "jest"
-    },
+   },
    "files": [
       "index.js",
       "index.d.ts",

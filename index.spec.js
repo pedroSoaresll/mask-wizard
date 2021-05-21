@@ -1,3 +1,4 @@
+
 const { time } = require('.')
 
 test('mask time input', () => {

@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true })
 
 const { onlyNumbers } = require('./lib')
-exports.time = void 0
+
 const time = (timeInput) => {
    const trimmedTime = onlyNumbers(timeInput).replace(/^0+(?!$)/, '')
  
