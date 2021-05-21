@@ -1,8 +1,27 @@
 {
-  "name": "mask_wizard",
-  "version": "0.0.1",
-  "description": "um montao de masks",
-  "main": "src/index.js",
-  "author": "Peam",
-  "license": "MIT"
+   "name": "mask_wizard",
+   "version": "0.0.1",
+   "description": "um montao de masks",
+   "license": "MIT",
+   "main": "src/index.js",
+   "author": {
+      "name": "Pedro Queiroz",
+      "email": "pedroqueiroz593@gmail.com",
+      "url": "https://pmqueiroz.me"
+   },
+   "engines": {
+      "node": ">=10"
+   },
+   "scripts": {
+      "test": "jest"
+    },
+   "files": [
+      "index.js",
+      "index.d.ts",
+      "license",
+      "lib.js"
+   ],
+   "devDependencies": {
+      "jest": "^26.6.3"
+   }
 }
