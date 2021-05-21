@@ -3,8 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true })
 
 const { onlyNumbers } = require('./lib')
 
-const time = (timeInput) => {
+const time = (timeInput, maxLength) => {
    const trimmedTime = onlyNumbers(timeInput).replace(/^0+(?!$)/, '')
+
+   if (maxLength && maxLength < 5) {
+      throw new Error('maxLength must be greater than or equal to 5')
+   }
+
+   if (maxLength && trimmedTime.length > maxLength) return trimmedTime
  
    switch (trimmedTime.length) {
      case 0:
